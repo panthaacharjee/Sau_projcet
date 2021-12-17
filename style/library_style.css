@@ -507,8 +507,8 @@ p {
 }
 @media screen and (max-width :600px) {
     .library_membar_top_link{
-        margin-top: 70px;
-       padding-bottom: 10px;
+        margin-top: 90px;
+       padding: 10px 0px;
     }
     .why_library_img img {
         width: 100%;
