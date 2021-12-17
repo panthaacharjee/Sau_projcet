@@ -287,6 +287,16 @@ p {
     letter-spacing: 0.01em;
     color: #000000;
 }
+.our_strength_p1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
 
 .what_our_library {
     display: flex;
@@ -425,7 +435,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.01em;
@@ -541,7 +551,7 @@ p {
     }
     .library_membar_top_link{
         font-size: 12px !important;
-        margin-top: 70px;
+        padding: 20px 0px;
     }
     .nav_main {
         height: 8vh;
@@ -555,10 +565,8 @@ p {
         font-size: 18px;
         line-height: 25px;
     }
-
-    .library_home_right_top_cover img {
-        height: 4px;
-        margin-top: 8px;
+    .library_home_main{
+        margin-top: 50px;
     }
 
     .why_library {
@@ -584,6 +592,7 @@ p {
 
     .library_name_details {
         flex-wrap: wrap;
+        padding: 0px 20px;
     }
 
     .library_component {
@@ -642,7 +651,7 @@ p {
         width: 49%;
     }
     .library_person_heading{
-        font-size: 28px;
+        font-size: 24px;
         margin-top: 20px;
     }
     .library_person_single img {
@@ -653,6 +662,9 @@ p {
     .sau_library_btn {
         margin-left: 70%;
         margin-bottom: 4%;
+    }
+    .our_strength_p1{
+        font-size: 24px  !important;
     }
     .our_strength_single{
         margin: 15px 0px;
@@ -666,6 +678,10 @@ p {
     .sau_library_btn {
         margin-left: 60%;
         margin-bottom: 4%;
+    }
+    .library_membar_top_link{
+        padding-top: 0px;
+       padding-bottom: 20px;
     }
 }
 
@@ -682,17 +698,6 @@ p {
 /* our strenght css start  */
 .our_strength {
     margin-top: 40px;
-}
-
-.our_strength_p1 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.01em;
-    color: #000000;
 }
 
 .our_strength_component {
