@@ -325,8 +325,8 @@ p {
     font-size: 16.2147px;
     line-height: 19px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
-    background: #2F2F2F;
+    color: #000000;
+    background: #F7F7F7;
     padding: 20px 0px 5px 20px;
 }
 
@@ -337,8 +337,8 @@ p {
     font-size: 12.6115px;
     line-height: 15px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
-    background: #2F2F2F;
+    color: #000000;
+    background: #F7F7F7;
     padding: 5px 20px 20px 20px;
 }
 
@@ -349,8 +349,8 @@ p {
     font-size: 16.2147px;
     line-height: 19px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
-    background: #2F2F2F;
+    color: #000000;
+    background: #F7F7F7;
     padding: 20px 0px 5px 20px;
     margin-top: 10px;
 }
@@ -362,8 +362,8 @@ p {
     font-size: 12.6115px;
     line-height: 15px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
-    background: #2F2F2F;
+    color: #000000;
+    background: #F7F7F7;
     padding: 5px 20px 20px 20px;
 }
 
@@ -539,7 +539,7 @@ p {
     }
     .library_membar_top_link{
         font-size: 12px !important;
-        margin-top: 50px;
+        margin-top: 80px;
     }
     .nav_main {
         height: 8vh;
@@ -586,6 +586,7 @@ p {
 
     .library_component {
         width: 100%;
+        margin-bottom: 50px;
     }
 
     .library_component_p1 {
