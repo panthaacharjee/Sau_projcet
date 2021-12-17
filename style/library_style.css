@@ -310,7 +310,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 21.6196px;
+    font-size: 18.6196px;
     line-height: 25px;
     letter-spacing: 0.01em;
     background-color: #153E90;
@@ -475,7 +475,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 0px;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 300;
 }
 
@@ -538,7 +538,7 @@ p {
     }
     .library_membar_top_link{
         font-size: 12px !important;
-        margin-top: 80px;
+        margin-top: 70px;
     }
     .nav_main {
         height: 8vh;
@@ -638,7 +638,10 @@ p {
     .library_person_single {
         width: 49%;
     }
-
+    .library_person_heading{
+        font-size: 28px;
+        margin-top: 20px;
+    }
     .library_person_single img {
         width: 100%;
         padding: 5px;
