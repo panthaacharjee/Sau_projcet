@@ -602,6 +602,7 @@ p {
 
     .what_our_library {
         flex-wrap: wrap;
+        margin-bottom: 20px;
     }
 
     .what_our_library {
