@@ -209,6 +209,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0px 20px;
 }
 
 .why_library_img img {
@@ -485,7 +486,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 0px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 300;
 }
 
@@ -500,11 +501,15 @@ p {
     .library_membar_top_link {
         font-size: 12px !important;
         margin-top: 90px;
-        padding: 20px 0px;
+        padding: 10px 0px;
     }
     
 }
 @media screen and (max-width :600px) {
+    .library_membar_top_link{
+        margin-top: 70px;
+       padding-bottom: 10px;
+    }
     .why_library_img img {
         width: 100%;
     }
@@ -551,7 +556,7 @@ p {
     }
     .library_membar_top_link{
         font-size: 12px !important;
-        padding: 20px 0px;
+        padding: 8px 0px;
     }
     .nav_main {
         height: 8vh;
@@ -646,6 +651,9 @@ p {
     .teaching_diversity {
         margin: 10px 0px;
     }
+    .teaching_diversity_p2{
+        font-size: 13.6115px;
+    }
 
     .library_person_single {
         width: 49%;
@@ -680,8 +688,8 @@ p {
         margin-bottom: 4%;
     }
     .library_membar_top_link{
-        padding-top: 0px;
-       padding-bottom: 20px;
+        margin-top: 70px;
+       padding-bottom: 10px;
     }
 }
 
