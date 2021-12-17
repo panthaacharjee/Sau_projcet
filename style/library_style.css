@@ -525,6 +525,9 @@ p {
     .teaching_diversity_right{
         width: 100%;
     }
+    .teaching_diversity_p1 {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width :520px) {
     .library_home_left {
@@ -585,7 +588,7 @@ p {
 
     .library_component {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 32px;
     }
 
     .library_component_p1 {
