@@ -158,6 +158,9 @@ p {
         margin-top: 32%;
         margin-right: 0%;
     }
+    #myBtnContainer{
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 500px) {
