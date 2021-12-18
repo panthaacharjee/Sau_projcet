@@ -2260,7 +2260,7 @@ button:active {
     }
 
     .admission {
-        margin: 10px 0px 10px 0px;
+        margin: 3px 0px 10px 0px;
     }
 
     .covid19 {
@@ -3223,7 +3223,7 @@ button:active {
 @media screen and (max-width :520px) {
     .notice {
 
-        padding: 10px 0px;
+        padding: 15px 0px;
     }
     .calander_front_card p{
         margin-top: -1px !important;
@@ -3737,11 +3737,11 @@ button:active {
     }
 
     .achivement {
-        padding: 0px 0px;
+        padding: -20px 0px;
     }
 
     .achivement {
-        margin: 0 0px 0px 0px;
+        margin: -60px 0px 0px 0px;
     }
 }
 
