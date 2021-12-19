@@ -2888,6 +2888,7 @@ button:active {
     padding: 3px;
     margin-left: 3px;
     width: 89%;
+    font-size: 15px;
 }
 
 .drop-down .option {
