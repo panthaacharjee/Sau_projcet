@@ -172,8 +172,8 @@ p {
 
     .inter_student_cover_right {
         font-size: 28px;
-    line-height: 28px;
-    padding: 15%;
+        line-height: 32px;
+        padding: 15% 4% !important;
     }
     .about_sau_top_link{
         font-size: 12px;
