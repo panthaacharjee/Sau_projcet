@@ -2720,7 +2720,7 @@ button:active {
 @media screen and (max-width: 1024px) {
     .faculty_left {
         padding: 15px;
-        height: 180px;
+        height: 260px;
     }
 
     .faculty_left_heading {
@@ -2778,16 +2778,13 @@ button:active {
         margin-top: 60px;
         padding: 5px 15px;
     }
-}
-
-@media screen and (max-width :800px) {
     .faculty_left_heading {
         font-size: 14.492px;
     }
 
     .faculty_left {
         padding: 15px;
-        height: 170px;
+        height: 230px;
     }
 
     .facilty_input_text {
@@ -2807,12 +2804,17 @@ button:active {
     .faculty_right_heading {
         font-size: 16px !important;
     }
+    .drop-down{
+        width: 150px;
+    }
 }
+
+
 
 
 @media screen and (max-width :800px) {
     .faculty_left {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 }
 
