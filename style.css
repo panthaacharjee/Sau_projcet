@@ -2826,10 +2826,17 @@ button:active {
         width: 560px;
     }
     .faculty_left_heading{
-        font-size: 20px;
+        font-size: 22px;
     }
     .daculty_item a{
         font-size: 16px;
+    }
+    .faculty_right_slider_one{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    element .style{
+        width: 400px !important;
     }
 }
 
