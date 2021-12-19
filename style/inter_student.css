@@ -198,7 +198,7 @@ p {
 
 /* services css start  */
 .inter_card {
-    margin: 7vh 5vw 2vh 7.5vw;
+    margin: 2vh 5vw 2vh 7.5vw;
     align-items: center;
     justify-content: center;
 }
@@ -304,7 +304,7 @@ p {
 /* fand c start css  */
 
 .fandc {
-    margin: 7vh 5vw 7vh 7.5vw;
+    margin: 2vh 5vw 2vh 7.5vw;
 }
 
 .fandc_main {
@@ -398,7 +398,7 @@ p {
 
 /* testimonial css start  */
 .testimonial {
-    margin: 10vh 5vw 10vh 5vw;
+    margin: 2vh 5vw 10vh 5vw;
 }
 
 .testimonial_slider_main {
@@ -431,13 +431,13 @@ p {
 
 .testimonial_slider_main_p1 {
     margin-top: 130px;
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .testimonial_slider_main_p2 {
     font-style: normal !important;
     font-weight: 300 !important;
-    font-size: 24px !important;
+    font-size: 18px;
     line-height: 28px !important;
     text-align: center;
     letter-spacing: 0.01em;
@@ -448,7 +448,7 @@ p {
 .testimonial_slider_main_p3 {
     font-style: normal !important;
     font-weight: 300 !important;
-    font-size: 29.3441px !important;
+    font-size: 24px;
     line-height: 34px !important;
     text-align: center !important;
     letter-spacing: 0.01em !important;
