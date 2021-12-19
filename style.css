@@ -2822,6 +2822,15 @@ button:active {
     .faculty_right{
         padding-left: 0px !important;
     }
+    .faculty_left{
+        width: 560px;
+    }
+    .faculty_left_heading{
+        font-size: 20px;
+    }
+    .daculty_item a{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width :381px) {
