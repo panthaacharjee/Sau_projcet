@@ -2556,15 +2556,15 @@ button:active {
     display: flex;
     flex-direction: column;
     padding: 22px;
-    height: 200px;
+    height: 250px;
 }
 
 .faculty_left_heading {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 23.4921px;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 67px;
     letter-spacing: 0.01em;
     color: #ffff;
 }
@@ -2579,6 +2579,7 @@ button:active {
     text-align: center;
     letter-spacing: 0.01em;
     margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 .faculty_right {
@@ -2621,15 +2622,20 @@ button:active {
     padding: 13px;
     margin-left: 80%;
 }
-
+.faculty_right_slider{
+    display: flex;
+    padding: 0 !important;
+    margin: 0;
+    margin-top: 20px;
+}
 .faculty_right_slider_one {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0px !important;
 }
 
 .faculty_right_slider_one .col-md-12 {
-    padding: 0px;
+    padding: 0px !important;
 }
 
 .faculty_right_slider_one .col-md-12 {
@@ -2660,10 +2666,16 @@ button:active {
     text-align: center;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    margin-top: 50px;
     margin-bottom: 70px;
     margin-bottom: 56px !important;
+    padding: 0px 15px;
+    cursor: pointer;
 }
-
+.faculty_slider_p1:hover{
+    text-decoration: underline !important;
+    color: white;
+}
 .faculty_line_img {
     position: absolute;
     z-index: 10;
@@ -2688,6 +2700,21 @@ button:active {
     color: #fff;
 }
 
+.faculty_right_more_department{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.faculty_right_more_department button{
+    border: 0px solid;
+    background-color: #153E90;
+    color: white;
+    padding: 8px 25px;
+    font-size: 14px;
+    letter-spacing: .2px;
+    font-family: Roboto;
+    font-weight: 400;
+}
 /* faculty responsive css  */
 
 @media screen and (max-width: 1024px) {
