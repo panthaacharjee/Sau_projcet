@@ -1,6 +1,8 @@
 * {
     margin: 0;
     font-family: Roboto;
+    outline: 1px red solid !important; 
+    visibility: visible !important 
 }
 
 body, html {
