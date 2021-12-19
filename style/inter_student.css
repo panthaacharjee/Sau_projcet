@@ -22,7 +22,7 @@ p {
     display: flex;
     align-items: center;
     font-size: 16px;
-    padding: 1% 0%;
+    padding: 1% 3%;
     /* margin: 0vh 5vw 0vh 5vw; */
 }
 
@@ -32,6 +32,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     /* margin: 18vh 5vw 0vw 5vw;  */
+    margin-left: 40px;
+    
     
 }
 
@@ -149,9 +151,10 @@ p {
     }
     .inter_student_main {
         margin-top: 5px;
+        margin-left: 10px;
     }
     .inter_card {
-        margin: 0vh 5vw 0vh 5vw !important;
+        margin: 2vh 5vw 0vh 8vw !important;
     }
     .inter_student_cover_left {
         width: 100% !important;
@@ -195,7 +198,7 @@ p {
 
 /* services css start  */
 .inter_card {
-    margin: 7vh 5vw 2vh 5vw;
+    margin: 7vh 5vw 2vh 7.5vw;
     align-items: center;
     justify-content: center;
 }
@@ -301,7 +304,7 @@ p {
 /* fand c start css  */
 
 .fandc {
-    margin: 7vh 5vw 7vh 5vw;
+    margin: 7vh 5vw 7vh 7.5vw;
 }
 
 .fandc_main {
@@ -586,7 +589,7 @@ p {
         margin-top: 12px;
     }
     .testimonial {
-        margin: 2vh 5vw 2vh 5vw;
+        margin: 5vh 5vw 2vh 5vw;
     }
     .testimonial_main_p1 {
         line-height: 30px;
