@@ -2862,6 +2862,7 @@ button:active {
     position: relative;
     cursor: pointer;
     border: 1px solid #153E90;
+    z-index: 1000;
 }
 
 .drop-down .selected a {
@@ -2884,9 +2885,9 @@ button:active {
 .drop-down .selected a span {
     cursor: pointer;
     display: block;
-    padding: 5px;
-    margin-left: 8px;
-    width: 80%;
+    padding: 3px;
+    margin-left: 3px;
+    width: 89%;
 }
 
 .drop-down .option {
@@ -2901,7 +2902,6 @@ button:active {
     position: absolute;
     left: 0px;
     top: 32px;
-    width: auto;
     width: 100% !important;
     margin-top: 7% !important;
     font-size: 12px;
@@ -2929,7 +2929,7 @@ button:active {
     display: block;
     text-decoration: none;
     color: #515151;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* faculty css end  */
