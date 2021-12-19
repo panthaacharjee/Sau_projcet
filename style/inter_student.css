@@ -198,14 +198,14 @@ p {
 
 /* services css start  */
 .inter_card {
-    margin: 2vh 5vw 2vh 7.5vw;
+    margin: 2vh 3.4vw 2vh 6vw;
     align-items: center;
     justify-content: center;
 }
 
 .inter_card_main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card {
