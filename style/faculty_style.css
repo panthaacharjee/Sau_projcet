@@ -208,7 +208,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 21px;
     letter-spacing: 0.01em;
     border-bottom: 1px solid #BABABA;
@@ -272,6 +272,7 @@ p {
 }
 
 
+
 /* faculty home responsive  start  */
 @media screen and (max-width :880px) {
     .faculty_home_right_t_details {
@@ -329,6 +330,7 @@ p {
     .faculty_home_top_link {
         font-size: 12px;
     }
+    
 }
 
 /* faculty home responsive end  */
@@ -406,6 +408,15 @@ p {
 
 .t_details_p span {
     font-weight: bold !important;
+}
+.t_details_f{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 25px;
 }
 
 .t_details_heading {
