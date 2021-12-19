@@ -3,8 +3,9 @@
     font-family: Roboto;
 }
 
-html {
-    
+body, html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 p {
