@@ -2583,7 +2583,7 @@ button:active {
 }
 
 .faculty_right {
-    padding-left: 40px;
+    padding-left: 29px;
 }
 
 .faculty_right_heading {
@@ -2598,10 +2598,10 @@ button:active {
     font-size: 25px !important;
     margin-top: 10px !important;
     margin-bottom: -11px !important;
-    margin-left: 16px;
+    margin-left: 20px;
 }
 .faculty_right_heading_img{
-    margin-left: 18px;
+    margin-left: 20px;
 }
 
 .daculty_item a {
@@ -2659,7 +2659,7 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -26px;
+    margin-left: -23px;
 }
 
 .faculty_slider_p1 {
@@ -2722,6 +2722,7 @@ button:active {
     letter-spacing: .2px;
     font-family: Roboto;
     font-weight: 400;
+    margin-left: 45px;
 }
 /* faculty responsive css  */
 
@@ -2812,10 +2813,16 @@ button:active {
     .faculty_right_heading {
         font-size: 16px !important;
         line-height: 20px;
+        margin-left: -6px;
+    }
+    .faculty_right_heading_img {
+        margin-left: -23px;
+        margin-top: 10px;
     }
     .drop-down{
         width: 150px;
     }
+
 }
 
 
@@ -2824,6 +2831,18 @@ button:active {
 @media screen and (max-width :800px) {
     .faculty_left {
         margin-bottom: 50px;
+    }
+    .faculty_slider_main{
+        margin-left: -48px;
+    }
+}
+@media screen and (max-width: 595px) {
+    .faculty_right_heading_img {
+        margin-left: -6px;
+    }
+    
+    .faculty_right_more_department a {
+        margin-left: 1px;
     }
 }
 
@@ -2846,6 +2865,9 @@ button:active {
     }
     element .style{
         width: 400px !important;
+    }
+    .faculty_right_heading_img {
+        margin-left: -4px;
     }
 
 }
