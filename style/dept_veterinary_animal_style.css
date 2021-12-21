@@ -9,8 +9,11 @@ a {
 
 html {
     scroll-behavior: smooth;
+ 
 }
-
+html, body{
+    overflow-x: hidden;
+}
 .row {
     margin-right: 0px;
     margin-left: 0px;
@@ -181,18 +184,26 @@ p {
     }
     .faculty_home_top_link{
         font-size: 12px;
+        margin-left: 7px;
     }
     .faculty_home_right_t_details img {
         height: 170px;
     }
     .t_details_p {
-        font-size: 18px;
+        font-size: 14px;
         line-height: 20px;
-        margin-top: 10px;
+        margin-top: 15px;
+    }
+    .t_details_f{
+        margin-top: 25px;
+        font-size: 15px;
+        color:white;
+        text-align: center;
     }
     .t_details_heading{
         font-size: 18px;
         line-height: 18px;
+        margin-top: 20px;
     }
 }
 
@@ -728,11 +739,11 @@ p {
     }
 
     .our_single_component img {
-        height: 50px;
+        height: 40px;
     }
 
     .our_single_component p {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .our_strength_single_p1 {
@@ -741,7 +752,7 @@ p {
     }
 
     .our_strength_single {
-        padding: 2% 5%;
+        padding: 5% 5%;
     }
 
     .dept_home_highlights_p1 {
@@ -749,8 +760,8 @@ p {
     }
 
     .highlights_components p {
-        font-size: 14px !important;
-        line-height: 20px !important;
+        font-size: 17px !important;
+        line-height: 31px !important;
         padding-right: 0% !important;
         padding: 9px !important;
     }
@@ -787,7 +798,7 @@ p {
         height: 20px;
     }
     .highlights_single p{
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -869,7 +880,7 @@ p {
 
     .glance_right img {
         height: 100% !important;
-        width: 45%;
+        width: 100%;
         padding: 1%;
     }
 }
@@ -879,6 +890,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         width: 100% !important;
     }
@@ -887,6 +899,7 @@ p {
     }
     .glance_left{
         width: 100%;
+       margin-bottom: 30px;
     }
     .glance_right{
         margin-top: 15px;
@@ -896,6 +909,9 @@ p {
 @media screen and (max-width :500px) {
     .glance_main {
         display: block !important;
+    }
+    .glance_left_p2 {
+        font-size: 16px !important;
     }
 
 }
@@ -1325,10 +1341,6 @@ p {
     text-align: center;
 }
 
-.glance_left_p2 {
-    font-size: 18px !important;
-}
-
 .dept_green_campus_left_p2 {
     font-family: Roboto;
     font-style: normal;
@@ -1446,6 +1458,9 @@ p {
 }
 
 @media screen and (max-width :520px) {
+    .dept_home {
+        padding: 0vh 0vw 5vh 0vw;
+    }
     .card-img-top {
         height: 180px !important;
     }
@@ -1460,22 +1475,23 @@ p {
     }
 
     .highlights_collapse_component img {
-        height: 70px ;
+        height: 90px ;
     }
 
     .highlights_collapse_component_details_p1 {
-        font-size: 14px;
+        font-size: 17px;
+        line-height: 17px;
     }
 
     .highlights_collapse_component_details_p2 {
-        font-size: 12px;
-        line-height: 10px;
-        margin-top: 0px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 3px;
     }
 
     .highlights_collapse_component_details_p3 {
         font-size: 12px;
-        line-height: 12px;
+        line-height: 16px;
     }
 
     .highlights_collapse_component a {
@@ -1495,6 +1511,18 @@ p {
     }
     .dept_notice_p1{
         font-size: 24px;
+    }
+    .t_discription{
+        font-size: 14px;
+    }
+    .dept_notice_details_notice_P2 {
+        font-size: 14px !important;
+        line-height: 24px !important;
+        margin: 8px 0px !important;
+    }
+    .dept_notice_details_notice_P {
+        font-size: 16px;
+        font-weight: bold;
     }
 }
 

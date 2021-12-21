@@ -688,6 +688,12 @@ p {
         width: 100%;
         margin-top: -29px;
     }
+    .glance_left_p1{
+        line-height: 66px;
+    }
+    .glance_left_p2{
+        line-height: 44px;
+    }
     .glance_right{
         margin-top: 15px;
     }
