@@ -780,6 +780,7 @@ p {
 
     .services {
         padding: 10px 0px !important;
+        margin-bottom: -42px!important;
     }
 
     .card-img-top {
