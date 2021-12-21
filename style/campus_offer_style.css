@@ -17,7 +17,7 @@ p {
 
 /* contact cover start css  */
 .why_library_cover {
-    margin-top: 11vh !important;
+    margin-top: 16vh !important;
 }
 
 .why_library_cover_top_link {
@@ -188,7 +188,7 @@ p {
 }
 @media screen and (max-width :600px) {
     .why_library_cover {
-        margin: 10vh 4% 2vh;
+        margin: 10vh 4% 2vh, 4%;
     }
     .why_library {
         margin: 20px 4%;
