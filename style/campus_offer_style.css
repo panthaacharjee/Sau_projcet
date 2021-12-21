@@ -34,7 +34,17 @@ p {
 }
 
 .why_library_cover_main {
-    padding: 0 !important;
+    padding: 0 !important ;
+}
+@media screen and (max-width:500px) {
+    .why_library_cover_main {
+        padding: 0px  19px!important;
+    }
+}
+@media screen and (max-width: 380px) {
+    .why_library_cover_main {
+        padding: 0px  15px!important;
+    }
 }
 
 .why_library_img {
