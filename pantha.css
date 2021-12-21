@@ -17,27 +17,11 @@
     margin-top: 125px ;
 }
 
-.inter_student_cover_left {
-    width: 40%;
-    background: rgba(21, 62, 144, 0.83);
-    padding: 4%;
-}
 
-.inter_student_cover {
-    display: flex;
-}
 
-.inter_student_cover_right {
-    width: 60%;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 84px;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    padding: 4%;
-}
+
+
+
 
 .inter_student_cover_left_component {
     display: flex;

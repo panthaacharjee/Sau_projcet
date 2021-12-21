@@ -94,6 +94,7 @@ p {
     /* margin-top: 16vh; */
 }
 
+
 .faculty_home_top_link {
     display: flex;
     align-items: center;
@@ -222,7 +223,7 @@ p {
 }
 
 .faculty_home_right_top_cover {
-    height: 20vh;
+    height: 14vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -308,6 +309,7 @@ p {
     .faculty_home_top_link {
         font-size: 12px !important;
         margin-top: 90px;
+        margin-left: 7px;
     }
     .sau_library_btn {
         display: flex !important;
@@ -315,7 +317,7 @@ p {
     }
 
     .faculty_home_right_top_cover {
-        font-size: 18px;
+        font-size: 32px;
         line-height: 30px;
     }
 
@@ -325,10 +327,16 @@ p {
     }
 
     .faculty_home_main {
-        /* margin-top: 8vh; */
+       
+            padding: 0vw 0vw 0vw 0vw;
+            /* margin-top: 16vh; */
+        
     }
     .faculty_home_top_link {
         font-size: 12px;
+    }
+    .faculty_home_right_t_details {
+      margin-top: 9px !important;
     }
     
 }
@@ -417,6 +425,7 @@ p {
     letter-spacing: 0.01em;
     color: #FFFFFF;
     margin-top: 25px;
+    text-align: center;
 }
 
 .t_details_heading {
@@ -433,6 +442,9 @@ p {
     padding: 5%;
     border: 1px solid #C8BCBC;
     box-sizing: border-box;
+}
+.t_discription p{
+    font-size: 14px;
 }
 
 .seemore_btn{
@@ -499,7 +511,12 @@ p {
     .t_details_heading {
         font-size: 18px;
         line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: -11px!important;
     }
+   
+    
+    
 
     .t_details_p {
         font-size: 14px;
@@ -650,7 +667,7 @@ p {
 
     .glance_right img {
         height: 100% !important;
-        width: 45%;
+        width: 100%;
         padding: 1%;
     }
 }
@@ -660,6 +677,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         width: 100% !important;
     }
@@ -668,6 +686,7 @@ p {
     }
     .glance_left{
         width: 100%;
+        margin-top: -29px;
     }
     .glance_right{
         margin-top: 15px;
@@ -704,7 +723,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 22.2767px;
+    font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.01em;
     width: 100%;
@@ -748,7 +767,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 22.2767px;
+    font-size: 18px;
     line-height: 26px;
     letter-spacing: 0.01em;
     width: 100%;
@@ -800,7 +819,11 @@ p {
 .services {
     padding: 20px 0px;
 }
-
+@media screen and (max-width:520px) {
+    .services {
+        padding: 0px 0px;
+    }
+}
 .card {
     margin: 0px 1.5%;
 }
@@ -1028,7 +1051,8 @@ p {
 @media screen and (max-width :520px) {
 
     .highlights_components p {
-        font-size: 14px;
+        font-size: 17px;
+        margin-right: 26px;
     }
 
     .highlights_components img {
@@ -1037,9 +1061,11 @@ p {
     }
     .dept_home_highlights_p1 {
         font-size: 26px;
+        margin-top: -6px !important;
     }
     .highlights_single p {
-        font-size: 14px;
+       font-size: 15px;
+       line-height: 25px;
     }
 }
 
@@ -1181,7 +1207,7 @@ p {
     }
     .highlights_collapse_component_details_p3 {
         font-size: 12px;
-        line-height: 12px;
+        line-height: 16px;
     }
     .highlights_collapse_component a {
         font-size: 14px;
@@ -1285,7 +1311,26 @@ p {
     margin-right: 0px;
     margin-left:0px ;
 }
-
+@media screen and (max-width: 520px) {
+    .row {
+        margin-right: 0px !important;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .candc_left {
+        padding: 0px !important;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .candc_right {
+        width: 100% !important;
+    }
+    .services_main{
+        margin-left: -5px!important;
+    }
+}
 .active {
     background-color: #007bff !important;
     padding: 25px 11px;
