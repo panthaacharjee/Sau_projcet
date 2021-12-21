@@ -22,7 +22,7 @@ p {
     display: flex;
     align-items: center;
     font-size: 16px;
-    padding: 1% 2.8%;
+    padding: 1% 2%;
     /* margin: 0vh 5vw 0vh 5vw; */
 }
 
@@ -38,8 +38,9 @@ p {
 }
 
 .inter_student {
-    margin: 18vh 5vw 0vw 5vw;
-    
+    margin: 18vh 5vw 0vw 5.7vw;
+    align-items: center;
+    justify-content: center;
     margin-top: 125px ;
 }
 
@@ -139,6 +140,10 @@ p {
     }
     .inter_student {
         margin-top: 95px;
+        margin-left: 2.4vw;
+    }
+    .about_sau_top_link{
+        padding: 1% 5%;
     }
 }
 
@@ -148,6 +153,7 @@ p {
     }
     .inter_student {
         margin-top: 89px;
+        margin-left: 5vw;
     }
     .inter_student_main {
         margin-top: 5px;
@@ -176,7 +182,7 @@ p {
         padding: 15% 4% !important;
     }
     .about_sau_top_link{
-        font-size: 12px;
+            padding: 1% 2%;
     }
     .inter_student_cover_left_component {
         display: flex;

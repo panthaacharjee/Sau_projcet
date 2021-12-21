@@ -44,6 +44,7 @@ p {
 @media screen and (max-width: 380px) {
     .why_library_cover_main {
         padding: 0px  15px!important;
+        margin-top:-20px ;
     }
 }
 
@@ -333,10 +334,10 @@ p {
         line-height: 15px;
         margin-top: 5px;
         display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 6%;
-
+        align-items: center;
+        flex-direction: column;
+        margin-top: 6%;
+        padding: 0px 5px;
     }
     .why_library_right_p2 span{
         text-align: center;

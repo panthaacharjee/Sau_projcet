@@ -568,7 +568,7 @@ p {
 
     .library_home_right_top_cover {
         font-size: 18px;
-        line-height: 25px;
+        line-height: 47px;
     }
     .library_home_main{
         margin-top: 50px;
@@ -885,11 +885,11 @@ p {
     }
 
     .our_single_component img {
-        height: 50px;
+        height: 40px;
     }
 
     .our_single_component p {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .our_strength_single_p1 {

@@ -109,6 +109,9 @@ p {
     margin-top: 25px;
 }
 
+.t_details_f{
+    color: white;
+}
 .t_details_p span {
     font-weight: bold !important;
 }
@@ -767,7 +770,7 @@ p {
     }
 
     .highlights_components img {
-        padding: 10px !important;
+        padding: 10px 0px!important;
     }
 
     .dept_green_campus_main {
@@ -1234,11 +1237,12 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.01em;
     text-decoration-line: underline;
     color: #1882FF;
+    font-weight: bold;
 }
 
 .dept_notice_details_p {
@@ -1445,6 +1449,7 @@ p {
     letter-spacing: 0.06em;
     color: #000;
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .card-img-top {
@@ -1524,6 +1529,10 @@ p {
     .dept_notice_details_notice_P {
         font-size: 16px;
         font-weight: bold;
+    }
+    .dept_calander_front_card {
+        height: 43px;
+        padding: 2px 0px;
     }
 }
 
