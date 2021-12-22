@@ -16,9 +16,26 @@ p {
 
 
 /* contact cover start css  */
+.about_sau_top_link{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-bottom: 1%;
+    /* margin: 0vh 5vw 0vh 5vw; */
+}
 .why_library_cover {
     margin-top: 16vh !important;
 }
+@media screen and (max-width:520px) {
+    .about_sau_top_link{
+        font-size: 12px;
+        padding-bottom: 3%;
+    }
+    .why_library_cover{
+        margin-top: 12vh!important;
+    }
+}
+
 
 .why_library_cover_top_link {
     display: flex;
