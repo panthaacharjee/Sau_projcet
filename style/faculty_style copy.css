@@ -22,17 +22,17 @@ p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    /* position: fixed;  */
+    position: fixed !important; 
     top: 0;
     width: 100%;
     z-index: 10;
-    /* border: 1px solid #757575; */
+    border: 1px solid #757575 !important;
     padding: 10px 0px;
-    position: absolute;
+    background-color: #fff;
 }
 
 .left_nav {
-    flex: 5;
+    flex: 2.8;
     display: flex;
     align-items: center;
     padding-left: 5%;
@@ -43,13 +43,17 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 18px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #54E346;
+    color: #000000;
 }
-
+.logo_text_bd{
+    color: #54E346;
+    border-top: 1px solid #ebebeb;
+    padding-top: 5px;
+}
 .left_nav img {
     height: 100px;
 }
@@ -215,7 +219,6 @@ p {
     left: 50%; */
     /* position: absolute; */
     /* transform: translate(-50%, -50%); */
-    border: 1px solid #54E346;
     transition-duration: 0.2s;
     height: 70px;
 }
@@ -712,10 +715,40 @@ p {
     line-height: 56px;
     text-align: center;
     letter-spacing: 0.06em;
-    padding: 330px 0px 250px;
+    padding: 380px 0px 250px;
     color: #FFFFFF;
 }
-
+.overview_cover{
+    height: 16vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 83px 72px 83px;
+    color: #FFFFFF;
+}
+.overview_cover::after {
+    content: "";
+    background: url(../image/faculty_home_right_top_cover.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .faculty_cover img {
     display: none;
 }
@@ -814,7 +847,7 @@ p {
 
 .faculty_home_main {
     padding: 0vw 5vw 0vw 5vw;
-    margin-top: 0vh;
+    margin-top:11vh;
 }
 
 .faculty_home_top_link {
@@ -2272,7 +2305,7 @@ p {
 ## About us Part
 --------------------------------------------------------------*/
 .highlights {
-    margin: 30px 0px 50px 27px;
+    margin: 30px 0px 50px 17px;
 }
 
 .highlights_components {
