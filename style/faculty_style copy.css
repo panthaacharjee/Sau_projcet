@@ -847,7 +847,7 @@ p {
 
 .faculty_home_main {
     padding: 0vw 5vw 0vw 5vw;
-    margin-top:11vh;
+    margin-top:-2vh;
 }
 
 .faculty_home_top_link {
@@ -2338,6 +2338,19 @@ p {
     color: #000000;
     text-align: center;
 }
+.achivement_t{
+     font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-align: center;
+    margin-top: 76px;
+    margin-bottom:20px !important;
+}
 
 .dept_home_highlights_p1_notice {
     font-family: Roboto;
@@ -2350,6 +2363,7 @@ p {
     color: #000000;
     text-align: center;
     margin-top: 76px;
+    margin-bottom: 39px !important;
 }
 
 .highlights_components p {
