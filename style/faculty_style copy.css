@@ -1553,7 +1553,7 @@ p {
     
 }
 
-@media screen and (max-width:490px) {
+@media screen and (max-width: 520px) {
     .faculty_cover {
        
         padding: 270px 86px 184px 64px !important;
