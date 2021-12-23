@@ -2159,6 +2159,13 @@ p {
     background: #fff !important;
     padding: 1rem !important;
 }
+.admission_bottom .card-body {
+    padding: 1rem 0rem!important;
+}
+.achivement_main{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
 .card_body_achivement{
     margin-top: 16px;
     padding: 0rem!important;
@@ -2305,7 +2312,7 @@ p {
 ## About us Part
 --------------------------------------------------------------*/
 .highlights {
-    margin: 30px 0px 50px 17px;
+    margin: 30px 0px 50px 1px;
 }
 
 .highlights_components {
