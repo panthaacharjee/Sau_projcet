@@ -438,8 +438,8 @@ p {
     }
 
     .logo_text {
-        font-size: 16.191px;
-        line-height: 18px;
+        font-size: 12px;
+        line-height: 14px;
     }
 
     .mujib_logo {
@@ -1431,7 +1431,7 @@ p {
 .dept_read_me {
     display: flex;
     align-items: center;
-    padding: 7px 0px;
+    padding: 3px 0px;
 }
 
 .dept_read_me p {
@@ -1447,7 +1447,14 @@ p {
     text-decoration-line: underline;
     cursor: pointer;
 }
-
+.dept_read_me_toggle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin: 8px 0px !important;
+}
 .dept_notice_mid_line {
     display: flex;
     align-items: center;
@@ -2038,7 +2045,11 @@ p {
     .mujiblogo{
         display: none !important;
     }
-    
+    .dept_read_me{
+        display: flex;
+        align-items: center;
+        padding: 7px 0px;
+    }
 }
 
 /* glance responsive css end  */
