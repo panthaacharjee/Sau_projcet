@@ -1556,7 +1556,7 @@ p {
 @media screen and (max-width:450px) {
     .faculty_cover {
        
-        padding: 330px 86px 250px 64px;
+        padding: 241px 86px 184px 64px;
         
     }
 }
@@ -1998,8 +1998,8 @@ p {
     }
     .faculty_cover p{
         padding:0% 0% !important;
-        font-size: 24px!important;
-        line-height: 48px;
+        font-size: 19px!important;
+        line-height: 39px;
     }
     .faculty_home_right{
         padding-right: 0px !important;
@@ -2019,7 +2019,7 @@ p {
     }
     .admission .card{
         width: 27rem !important;
-        margin-bottom: 35px !important;
+        margin-bottom: 20px !important;
     }
     .dept_notice {
         margin-top: 20px;
@@ -2031,6 +2031,9 @@ p {
     .faculty_home_top_link {
         padding: 42px 0px 33px;
         font-size: 12px;
+    }
+    .overview_cover{
+        font-size: 22px !important;
     }
     
     
@@ -2286,11 +2289,11 @@ p {
         width: 100%!important;
     }
     .services {
-        padding: 20px 0spx;
+        padding: 0px 6px;
     }
     .services_card {
         width: 100% !important;
-        margin: 3% 1% !important;
+        margin: 3% -1% !important;
     }
 }
 
@@ -2450,6 +2453,15 @@ p {
     .highlights_components img {
         /* font-size: 14px; */
         height: 30px !important;
+    }
+    .dept_home_highlights_p1{
+        font-size: 24px;
+    }
+    .achivement_t{
+        font-size: 24px;
+    }
+    .dept_home_highlights_p1_notice{
+        font-size: 24px;
     }
 
 }
