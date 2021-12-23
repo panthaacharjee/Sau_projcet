@@ -427,7 +427,7 @@ p {
 /* nav popbar responsive css start  */
 @media screen and (max-width :800px) {
     .nav_main {
-        height: 20vh;
+        height: 14vh;
     }
 
     .left_nav img {
@@ -575,8 +575,9 @@ p {
 
 @media screen and (max-width :520px) {
     .nav_main {
-        height: 8vh !important;
+        height: 14vh !important;
     }
+    
 }
 
 @media screen and (max-width :420px) {
@@ -1514,8 +1515,16 @@ p {
     .faculty_home_main {
         margin-top: 5vh;
     }
+    
 }
 
+@media screen and (max-width:450px) {
+    .faculty_cover {
+       
+        padding: 330px 86px 250px 64px;
+        
+    }
+}
 /* faculty home responsive end  */
 /* achivement css start  */
 
@@ -1951,7 +1960,17 @@ p {
     .glance_main {
         display: block !important;
     }
-
+    .faculty_cover p{
+        padding:0% 2% !important;
+        font-size: 35px!important;
+    }
+    .faculty_home_right{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .highlights {
+        margin: 30px 0px 50px -1px !important;
+    }
 }
 
 /* glance responsive css end  */
