@@ -1998,7 +1998,7 @@ p {
     }
     .faculty_cover p{
         padding:0% 0% !important;
-        font-size: 19px!important;
+        font-size: 27px!important;
         line-height: 39px;
     }
     .faculty_home_right{
@@ -2029,13 +2029,15 @@ p {
         margin-bottom: 50px !important;
     }
     .faculty_home_top_link {
-        padding: 42px 0px 33px;
+        padding: 14px 0px 20px;
         font-size: 12px;
     }
     .overview_cover{
         font-size: 22px !important;
     }
-    
+    .mujiblogo{
+        display: none !important;
+    }
     
 }
 
