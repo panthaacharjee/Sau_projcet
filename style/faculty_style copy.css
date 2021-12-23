@@ -1279,6 +1279,7 @@ p {
 .dept_single_date_discription {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .dept_caloander_card {
@@ -2102,7 +2103,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 22.2767px;
+    font-size: 22px;
     line-height: 26px;
     letter-spacing: 0.01em;
     width: 100%;
@@ -2349,7 +2350,7 @@ p {
     color: #000000;
     text-align: center;
     margin-top: 76px;
-    margin-bottom:20px !important;
+    margin-bottom:30px !important;
 }
 
 .dept_home_highlights_p1_notice {
