@@ -111,7 +111,7 @@ p {
 
 @media screen and (max-width: 600px) {
     .logo_text {
-        font-size: 10.191px;
+        font-size: 10px;
         line-height: 10px;
     }
 
@@ -467,7 +467,7 @@ p {
     }
 
     .home_btn_one {
-        font-size: 14.012px !important;
+        font-size: 14px !important;
         line-height: 22px !important;
         padding: 10px 28px !important;
     }
@@ -477,7 +477,7 @@ p {
     }
 
     .home_btn_two {
-        font-size: 14.012px !important;
+        font-size: 14px !important;
         line-height: 22px !important;
         padding: 10px 28px !important;
     }
@@ -845,7 +845,7 @@ p {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background: #000;
+    background: rgba(0, 0, 0, 0.301);
     border: 4px solid green;
     margin: 1%;
     text-decoration: none !important;
@@ -853,6 +853,13 @@ p {
     display: none;
     font-size: 18px;
     text-align: center;
+    /* background: url("../image/sau_btn_nav.png");
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.sau_library_btn img{
+    width: 100px;
+    height: 100px;
 }
 
 .sau_library_btn:hover {
@@ -908,7 +915,7 @@ p {
     width: 100%;
     display: flex;
     align-items: center;
-    border: 0.715055px solid #BABABA;
+    border: 0.7px solid #BABABA;
     text-align: center;
     background-color: #000;
     /* z-index: 111111; */
@@ -2031,7 +2038,7 @@ p {
         padding-left: 0px !important;
     }
     .highlights {
-        margin: 30px 0px 50px -1px !important;
+        margin: 30px 0px 36px -1px !important;
     }
     .admission_bottom {
         display: flex;
@@ -2048,7 +2055,7 @@ p {
     }
     .dept_notice {
         margin-top: 20px;
-        padding: 6px 8px;
+        padding: 0px 4px;
     }
     .dept_home_highlights_p1_notice{
         margin-bottom: 50px !important;
@@ -2490,6 +2497,7 @@ p {
     }
     .achivement_t{
         font-size: 24px;
+        margin-top: 0px !important;
     }
     .dept_home_highlights_p1_notice{
         font-size: 24px;
