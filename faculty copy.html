@@ -137,7 +137,7 @@
             </div>
             <div class="faculty_home_bottom row">
                 <div class="faculty_home_left col-md-3">
-                    <a href="#small-dialog" class=" popup-with-move-anim  sau_library_btn"><img src="./image/sau_btn_nav.png"></a>
+                    <a href="#small-dialog" class=" popup-with-move-anim  sau_library_btn" id="sau_library_btn"><img src="./image/sau_btn_nav.png"></a>
                     <div id="small-dialog" class="zoom-anim-dialog mfp-hide sau_dialog">
                         <h1>SAU Library</h1>
                         <a href="">CHANCELLOR</a>
@@ -496,8 +496,9 @@
                                     <p class="highlights_collapse_component_details_p2">Chairman</p>
                                     <p class="highlights_collapse_component_details_p3">+880 1335 1398128 <br>
                                         pronojitsau@gmai.com</p>
+                                        <a href="">Go to Department</a>
                                 </div>
-                                <a href="">Go to Department</a>
+                                
                             </div>
                         </div>
 
@@ -556,8 +557,9 @@
                                     <p class="highlights_collapse_component_details_p2">Chairman</p>
                                     <p class="highlights_collapse_component_details_p3">+880 1335 1398128 <br>
                                         pronojitsau@gmai.com</p>
+                                        <a href="">Go to Department</a>
                                 </div>
-                                <a href="">Go to Department</a>
+                              
                             </div>
                         </div>
                     </div>
@@ -1011,7 +1013,6 @@
         navTogglerCoros.addEventListener("click", navToggleCoros);
 
         function navToggleCoros() {
-            console.log("hi");
             navTogglerCoros.classList.toggle("act");
             const nav = document.querySelector(".nav_pop_bar");
             nav.classList.toggle("open");
@@ -1099,6 +1100,17 @@
                 mainClass: 'my-mfp-slide-bottom'
             });
         });
+
+        /* Sau btn library animation*/
+         document.getElementById("sau_library_btn").addEventListener("click", function(){
+            document.getElementById("sau_library_btn").style.visibility = "hidden"
+        })
+        document.getElementById("small-dialog").addEventListener("click", function(){
+            document.getElementById("sau_library_btn").style.visibility = "visible"
+        })
+        // document.getElementsByTagName("BODY")[0].addEventListener("click", function(){
+        //     document.getElementById("sau_library_btn").style.visibility = "visible"
+        // })
     </script>
 </body>
 

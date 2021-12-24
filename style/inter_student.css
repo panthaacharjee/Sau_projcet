@@ -22,7 +22,7 @@ p {
     display: flex;
     align-items: center;
     font-size: 16px;
-    padding: 1% 2%;
+    padding: 1% 0%;
     /* margin: 0vh 5vw 0vh 5vw; */
 }
 
@@ -32,7 +32,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     /* margin: 18vh 5vw 0vw 5vw;  */
-    margin-left: 40px;
     
     
 }
