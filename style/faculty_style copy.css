@@ -26,13 +26,13 @@ p {
     top: 0;
     width: 100%;
     z-index: 10;
-    border: 1px solid #757575 !important;
+    border-bottom: 1px solid #757575 !important;
     padding: 10px 0px;
     background-color: #fff;
 }
 
 .left_nav {
-    flex: 2.8;
+    flex: 1.6;
     display: flex;
     align-items: center;
     padding-left: 5%;
@@ -56,7 +56,7 @@ p {
 }
 .left_nav img {
     height: 100px;
-    margin-left: 17px!important;
+    margin-left: 20px !important;
 }
 
 .right_nav {
@@ -431,7 +431,7 @@ p {
 /* nav popbar responsive css start  */
 @media screen and (max-width :800px) {
     .nav_main {
-        height: 14vh;
+        height: 10vh;
     }
 
     .left_nav img {
@@ -511,10 +511,18 @@ p {
         height: 45px !important;
         width: 45px !important;
     }
-
-    .addbar {
-        display: none;
+    .search_img{
+        height: 20px;
     }
+    .left_nav{
+        padding-left: 0%;
+    }
+
+}
+
+    /* .addbar {
+        display: none;
+    } */
 
     .nav_pop_bar_main {
         padding: 0px 35px;
@@ -589,7 +597,7 @@ p {
     .nav_main {
         height: 8vh !important;
     }
-
+    
     .left_nav img {
         height: 45px !important;
     }
@@ -683,6 +691,15 @@ p {
     .nav_bottom_btn a {
         font-size: 10px;
         padding: 10px 30px;
+    }
+}
+@media screen and (max-width : 350px) {
+    .search-bar a {
+        height: 35px !important;
+        width: 36px !important;
+    }
+    .search_img {
+        height: 15px;
     }
 }
 
