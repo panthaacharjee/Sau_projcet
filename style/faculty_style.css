@@ -271,7 +271,9 @@ p {
 .faculty_home_right_t_details img {
     height: 230px;
 }
-
+.overview{
+    padding: 2%;
+}
 
 
 /* faculty home responsive  start  */
@@ -527,6 +529,7 @@ p {
         text-align: center;
     }
 }
+
 
 /* faculty home css end  */
 
