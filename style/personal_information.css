@@ -39,6 +39,12 @@ p {
     width: 270px;
     text-align: center;
 }
+.library_membar_top_link {
+    display: flex;
+    padding: 10px 0px 10px;
+    font-size: 16px !important;
+    margin-top: 125px;
+}
 
 .sau_dialog a:hover {
     color: #ffff;
@@ -92,7 +98,7 @@ p {
 
 /* personal information home css start */
 .personal_information {
-    padding: 8vh 5vw 8vh 5vw;
+    padding: 0vh 5vw 8vh 5vw;
     margin-top: 10vh;
 }
 
@@ -308,7 +314,7 @@ p {
     }
 
     .personal_information {
-        margin-top: 1vh;
+        margin-top: -7vh;
     }
 
     .t_personal_information {
@@ -383,6 +389,13 @@ p {
     }
     .personal_information_right{
         margin: 0px 0px !important;
+    }
+    .library_membar_top_link{
+        font-size: 10px!important;
+    }
+    .library_membar_top_link img{
+        height: 12px;
+        margin-right: 3px;
     }
 }
 
