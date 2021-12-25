@@ -104,6 +104,7 @@ p {
     background-color: #F6F6F6;
     padding: 1%;
     height: 100%;
+    margin-right: 17px;
 }
 
 .personal_information_left_link_box {
@@ -138,6 +139,7 @@ p {
 
 .t_social_icon {
     display: flex;
+    margin-top: 10px;
 }
 
 .t_social_icon img {
@@ -153,7 +155,7 @@ p {
 
 .t_personal_information_main {
     background: #F6F6F6;
-    padding: 3%;
+    padding: 1%;
 }
 
 .t_education_details_single {
@@ -170,10 +172,10 @@ p {
 }
 
 .t_personal_information_right_p1 {
-    font-family: Mont;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 46px;
     letter-spacing: 0.01em;
     color: #3D3D3D;
@@ -183,8 +185,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 134.69%;
+    font-size: 16px;
+    line-height: 134%;
     letter-spacing: 0.01em;
     color: #3D3D3D;
 }
@@ -193,8 +195,8 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 134.69%;
+    font-size: 16px;
+    line-height: 150%;
     letter-spacing: 0.01em;
     color: #3D3D3D;
 }
@@ -205,7 +207,7 @@ p {
 
 .t_education_details {
     background: #F6F6F6;
-    padding: 3%;
+    padding: 1%;
 }
 
 .t_education_details_main {
@@ -226,7 +228,7 @@ p {
 .t_education_details_single_p1 {
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 26px;
     line-height: 37px;
     letter-spacing: 0.045em;
@@ -261,7 +263,7 @@ p {
 
 .t_language_details {
     background: #F6F6F6;
-    padding: 3%;
+    padding: 1%;
 }
 
 .t_language_details_main {
@@ -286,6 +288,7 @@ p {
     letter-spacing: 0.01em;
     color: #000000;
     margin-bottom: 12px !important;
+    
 }
 
 .t_language_single_p2 {
@@ -321,8 +324,10 @@ p {
     }
 
     .t_personal_information_right_p2 {
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
+        line-height: 21px;
+        margin-bottom: 5px !important;
     }
 
     .t_personal_information_right_p3 {
@@ -338,16 +343,16 @@ p {
     }
 
     .t_personal_information_right_p3 {
-        margin-top: 5px;
+        margin-top: 11px;
     }
 
     .t_social_icon {
-        margin-top: 5px;
+        margin-top: 13px;
     }
 
     .t_education_p {
         font-size: 18px;
-        padding: 2% 0% 1%;
+        padding: 9% 0% 1%;
     }
 
     .t_education_details_single_p1 {
@@ -355,13 +360,13 @@ p {
     }
 
     .t_education_details_single_p2 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
 
     .t_language_p {
         font-size: 18px;
-        padding: 2% 0% 1%;
+        padding: 9% 0% 1%;
     }
 
     .t_language_single_p1 {
@@ -369,7 +374,15 @@ p {
     }
 
     .t_language_single_p2 {
-        font-size: 16px;
+        font-size: 14px;
+    line-height: 20px;
+    }
+    .t_personal_information_main {
+        background: #F6F6F6;
+        padding: 2%;
+    }
+    .personal_information_right{
+        margin: 0px 0px !important;
     }
 }
 

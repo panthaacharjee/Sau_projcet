@@ -575,11 +575,11 @@ p {
     }
 
     .nav_main_options {
-        margin: 35% 0% 0% 0% !important;
+        margin: 10% 0% 0% 0% !important;
     }
 
     .nav_main_options a {
-        font-size: 18px;
+        font-size: 24px;
         line-height: 30px;
     }
 
@@ -598,7 +598,7 @@ p {
     }
 
     .nav_bottom_btn {
-        margin-top: 30% !important;
+        margin-top: 10% !important;
     }
 
     .nav_2ndlebel_option {

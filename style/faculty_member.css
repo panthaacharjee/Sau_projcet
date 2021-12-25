@@ -743,7 +743,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 21px;
     letter-spacing: 0.01em;
     border-bottom: 1px solid #BABABA;
@@ -846,11 +846,15 @@ p {
     display: flex;
     align-items: center;
     /* border-bottom: 0.5px solid #6A6A6A; */
-    padding: 20px 0px 0px;
-    font-size: 16px;
+    padding: 0px 0px 0px;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
-
+.faculty_membar_top_link img{
+    height: 13px;
+    margin-right: 5px;
+}
 .faculty_agriculture_box {
     display: flex;
     align-items: center;
@@ -866,12 +870,11 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 21.6034px;
+    font-size: 22px;
     line-height: 25px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
     text-decoration: none;
-    margin-right: 8px;
 }
 
 .faculty_agriculture_item {
@@ -902,8 +905,8 @@ p {
 }
 
 .faculty_membar_left img {
-    margin: 2px 0px 2px 0px;
-    display: none;
+    margin: 2px 0px 2px 49px;
+    /* display: none; */
 }
 
 
@@ -917,7 +920,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
@@ -1163,7 +1166,7 @@ p {
 
 .page__custom-settings {
     --toggleColor: #187AF1;
-    --toggleOutlineColorFocus: #fff;
+    --toggleOutlineColorFocus: none;
     --toggleSize: 2rem;
 }
 
@@ -1209,15 +1212,16 @@ p {
 
 .faculty_member_image__img {
     display: block;
-    width: 100%;
+    width: 84%;
     border-radius: 50%;
+    margin-left: 20px;
 }
 
 .faculty_member_image__overlay {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 22px;
+    width: 83%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     color: #ffffff;
@@ -1240,7 +1244,7 @@ p {
 
 .faculty_member_image__overlay--secondery {
     border-radius: 50%;
-    width: 220px !important;
+    width: 181px !important;
 }
 
 .faculty_member_image__overlay>* {
@@ -1305,7 +1309,7 @@ p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 13.0669px;
+    font-size: 16px;
     line-height: 15px;
     text-align: center;
     letter-spacing: 0.01em;
@@ -1320,10 +1324,14 @@ p {
 
 .faculty_member_person_icon div {
     background-color: #1882FF;
-    padding: 5px 11px 6px;
+    padding: 3px 9px 4px;
     cursor: pointer;
     margin: 2px;
 }
+/* .faculty_member_person_icon img{
+    height: 10px;
+    width: 10px;
+} */
 
 
 .popover {
@@ -1339,12 +1347,15 @@ p {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.01em;
-
-    color: #FFFBFB;
+    background-color: #fff;
+    color: #000;
+    border-left: 1px solid blue !important;
+    border-right: 1px solid blue !important;
+    border-bottom: 1px solid blue !important;
 }
 
 .popover-header {
-    background-color: #1882FF;
+    background-color: #fff;
     border: 0px !important;
     font-family: Roboto;
     font-style: normal;
@@ -1353,7 +1364,10 @@ p {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.01em;
-    color: #FFFBFB;
+    color: #000;
+    border-top: 1px solid blue !important;
+    border-left: 1px solid blue !important;
+    border-right: 1px solid blue !important;
 }
 
 .bs-popover-auto[x-placement^="left"] .arrow::after,
@@ -1416,4 +1430,42 @@ p {
 .side-link-icon {
     color: white;
     font-size: 30px;
+}
+@media screen and (max-width: 520px) {
+    .faculty_membar_top_link {
+        padding: 17px 0px 0px;
+        font-size: 12px;
+    }
+    .faculty_member_person_main{
+        margin-left: 5px;
+    }
+    .faculty_member_image__img {
+        width: 66%;
+        margin-left: 37px;
+    }
+    .faculty_member_image__overlay{
+        width: 65%;
+        margin-left: 16px;
+    }
+    .faculty_member_image__overlay--secondery {
+        border-radius: 50%;
+        width: 144px !important;
+    }
+    .faculty_name_person{
+        font-size: 18px;
+    }
+    .faculty_member_pagination {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .label{
+        padding: 5px!important;
+        font-size: 14px;
+    }
+}
+/* Faculty Pagination */
+.faculty_member_pagination{
+    display: flex;
+    justify-content: center;
 }
