@@ -415,7 +415,14 @@ p {
     cursor: pointer;
     /* z-index: 60000; */
 }
-
+#small-dialog {
+    background: blue;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 400px;
+    margin: 40px auto;
+    position: relative;
+}
 @media screen and (max-width :1024px) {
     .nav_main_options {
         margin: 0% 0% 0% 0% !important;
