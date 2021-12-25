@@ -1292,11 +1292,11 @@ p {
 .faculty_name_person {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 20.4468px;
     line-height: 24px;
     letter-spacing: 0.01em;
-    margin: 5px 0px;
+    margin: 20px 0px;
     color: #212121;
     text-align: center;
 }
@@ -1320,7 +1320,7 @@ p {
 
 .faculty_member_person_icon div {
     background-color: #1882FF;
-    padding: 7px 12px 9px;
+    padding: 5px 11px 6px;
     cursor: pointer;
     margin: 2px;
 }
